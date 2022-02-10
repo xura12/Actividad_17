@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".modifica_cliente">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MANTENIMIENTO DE CLIENTES"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(ACTUALIZACION DE DATOS)"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <EditText
+    android:id="@+id/etCodigo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="number"
+    android:hint="Codigo" />
+
+    <EditText
+        android:id="@+id/etNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombres" />
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Apellidos" />
+
+    <EditText
+        android:id="@+id/etFono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Telefono" />
+
+
+    <Button
+        android:id="@+id/btActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR" />
+
+    <Button
+        android:id="@+id/btEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR" />
+    <Button
+        android:id="@+id/btRetorna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RETORNAR" />
+</LinearLayout>
